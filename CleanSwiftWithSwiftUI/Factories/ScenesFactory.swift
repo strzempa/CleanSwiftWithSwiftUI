@@ -10,6 +10,7 @@ protocol ScenesFactory {
     func makeDetailsScene(
         viewModel: DetailsSceneViewModel
     ) -> UIViewController
+    func makeOtherScene() -> UIViewController
 }
 
 final class DefaultScenesFactory: ScenesFactory {
@@ -26,5 +27,10 @@ final class DefaultScenesFactory: ScenesFactory {
         viewModel: DetailsSceneViewModel
     ) -> UIViewController {
         DefaultDetailsSceneConfigurator().configured(with: viewModel)
+    }
+    
+    func makeOtherScene() -> UIViewController {
+        DefaultOtherSceneConfigurator()
+            .configured(with: DefaultOtherSceneViewModel())
     }
 }

@@ -7,6 +7,24 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		3680184127D3E06D00F9F6F3 /* OtherScenePresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680183B27D3E06D00F9F6F3 /* OtherScenePresenter.swift */; };
+		3680184227D3E06D00F9F6F3 /* OtherSceneRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680183C27D3E06D00F9F6F3 /* OtherSceneRouter.swift */; };
+		3680184327D3E06D00F9F6F3 /* OtherSceneViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680183D27D3E06D00F9F6F3 /* OtherSceneViewController.swift */; };
+		3680184427D3E06D00F9F6F3 /* OtherSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680183E27D3E06D00F9F6F3 /* OtherSceneInteractor.swift */; };
+		3680184527D3E06D00F9F6F3 /* OtherSceneView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680183F27D3E06D00F9F6F3 /* OtherSceneView.swift */; };
+		3680184627D3E06D00F9F6F3 /* OtherSceneConfigurator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680184027D3E06D00F9F6F3 /* OtherSceneConfigurator.swift */; };
+		3680188227D3E53B00F9F6F3 /* OtherSceneViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680187C27D3E53B00F9F6F3 /* OtherSceneViewControllerTests.swift */; };
+		3680188327D3E53B00F9F6F3 /* OtherSceneInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680187D27D3E53B00F9F6F3 /* OtherSceneInteractorTests.swift */; };
+		3680188427D3E53B00F9F6F3 /* OtherSceneViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680187E27D3E53B00F9F6F3 /* OtherSceneViewModelTests.swift */; };
+		3680188527D3E53B00F9F6F3 /* OtherSceneRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680187F27D3E53B00F9F6F3 /* OtherSceneRouterTests.swift */; };
+		3680188627D3E53B00F9F6F3 /* OtherScenePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188027D3E53B00F9F6F3 /* OtherScenePresenterTests.swift */; };
+		3680188727D3E53B00F9F6F3 /* OtherSceneConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188127D3E53B00F9F6F3 /* OtherSceneConfiguratorTests.swift */; };
+		3680188F27D3E5A600F9F6F3 /* WelcomeSceneViewControllerTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188927D3E5A600F9F6F3 /* WelcomeSceneViewControllerTests.swift */; };
+		3680189027D3E5A600F9F6F3 /* WelcomeSceneInteractorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188A27D3E5A600F9F6F3 /* WelcomeSceneInteractorTests.swift */; };
+		3680189127D3E5A600F9F6F3 /* WelcomeSceneViewModelTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188B27D3E5A600F9F6F3 /* WelcomeSceneViewModelTests.swift */; };
+		3680189227D3E5A600F9F6F3 /* WelcomeSceneRouterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188C27D3E5A600F9F6F3 /* WelcomeSceneRouterTests.swift */; };
+		3680189327D3E5A600F9F6F3 /* WelcomeScenePresenterTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188D27D3E5A600F9F6F3 /* WelcomeScenePresenterTests.swift */; };
+		3680189427D3E5A600F9F6F3 /* WelcomeSceneConfiguratorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3680188E27D3E5A600F9F6F3 /* WelcomeSceneConfiguratorTests.swift */; };
 		36E4C0DB27C98271002641FA /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4C0DA27C98271002641FA /* SceneDelegate.swift */; };
 		36E4C0E227C98272002641FA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 36E4C0E127C98272002641FA /* Assets.xcassets */; };
 		36E4C0E527C98272002641FA /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 36E4C0E327C98272002641FA /* LaunchScreen.storyboard */; };
@@ -28,7 +46,36 @@
 		36E4C11127C9884C002641FA /* DetailsSceneInteractor.swift in Sources */ = {isa = PBXBuildFile; fileRef = 36E4C10A27C9884C002641FA /* DetailsSceneInteractor.swift */; };
 /* End PBXBuildFile section */
 
+/* Begin PBXContainerItemProxy section */
+		3680186927D3E1B300F9F6F3 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 36E4C0CD27C98271002641FA /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 36E4C0D427C98271002641FA;
+			remoteInfo = CleanSwiftWithSwiftUI;
+		};
+/* End PBXContainerItemProxy section */
+
 /* Begin PBXFileReference section */
+		3680183B27D3E06D00F9F6F3 /* OtherScenePresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherScenePresenter.swift; sourceTree = "<group>"; };
+		3680183C27D3E06D00F9F6F3 /* OtherSceneRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneRouter.swift; sourceTree = "<group>"; };
+		3680183D27D3E06D00F9F6F3 /* OtherSceneViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneViewController.swift; sourceTree = "<group>"; };
+		3680183E27D3E06D00F9F6F3 /* OtherSceneInteractor.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneInteractor.swift; sourceTree = "<group>"; };
+		3680183F27D3E06D00F9F6F3 /* OtherSceneView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneView.swift; sourceTree = "<group>"; };
+		3680184027D3E06D00F9F6F3 /* OtherSceneConfigurator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneConfigurator.swift; sourceTree = "<group>"; };
+		3680186527D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CleanSwiftWithSwiftUnitTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		3680187C27D3E53B00F9F6F3 /* OtherSceneViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneViewControllerTests.swift; sourceTree = "<group>"; };
+		3680187D27D3E53B00F9F6F3 /* OtherSceneInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneInteractorTests.swift; sourceTree = "<group>"; };
+		3680187E27D3E53B00F9F6F3 /* OtherSceneViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneViewModelTests.swift; sourceTree = "<group>"; };
+		3680187F27D3E53B00F9F6F3 /* OtherSceneRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneRouterTests.swift; sourceTree = "<group>"; };
+		3680188027D3E53B00F9F6F3 /* OtherScenePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherScenePresenterTests.swift; sourceTree = "<group>"; };
+		3680188127D3E53B00F9F6F3 /* OtherSceneConfiguratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OtherSceneConfiguratorTests.swift; sourceTree = "<group>"; };
+		3680188927D3E5A600F9F6F3 /* WelcomeSceneViewControllerTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewControllerTests.swift; sourceTree = "<group>"; };
+		3680188A27D3E5A600F9F6F3 /* WelcomeSceneInteractorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneInteractorTests.swift; sourceTree = "<group>"; };
+		3680188B27D3E5A600F9F6F3 /* WelcomeSceneViewModelTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneViewModelTests.swift; sourceTree = "<group>"; };
+		3680188C27D3E5A600F9F6F3 /* WelcomeSceneRouterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneRouterTests.swift; sourceTree = "<group>"; };
+		3680188D27D3E5A600F9F6F3 /* WelcomeScenePresenterTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeScenePresenterTests.swift; sourceTree = "<group>"; };
+		3680188E27D3E5A600F9F6F3 /* WelcomeSceneConfiguratorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WelcomeSceneConfiguratorTests.swift; sourceTree = "<group>"; };
 		36E4C0D527C98271002641FA /* CleanSwiftWithSwiftUI.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CleanSwiftWithSwiftUI.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		36E4C0DA27C98271002641FA /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
 		36E4C0E127C98272002641FA /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -53,6 +100,13 @@
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
+		3680186227D3E1B300F9F6F3 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36E4C0D227C98271002641FA /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
@@ -63,10 +117,67 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		3680182227D3DFB800F9F6F3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3680183B27D3E06D00F9F6F3 /* OtherScenePresenter.swift */,
+				3680183C27D3E06D00F9F6F3 /* OtherSceneRouter.swift */,
+				3680183D27D3E06D00F9F6F3 /* OtherSceneViewController.swift */,
+				3680183E27D3E06D00F9F6F3 /* OtherSceneInteractor.swift */,
+				3680183F27D3E06D00F9F6F3 /* OtherSceneView.swift */,
+				3680184027D3E06D00F9F6F3 /* OtherSceneConfigurator.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3680186627D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests */ = {
+			isa = PBXGroup;
+			children = (
+				3680186E27D3E1C200F9F6F3 /* Scenes */,
+			);
+			path = CleanSwiftWithSwiftUnitTests;
+			sourceTree = "<group>";
+		};
+		3680186E27D3E1C200F9F6F3 /* Scenes */ = {
+			isa = PBXGroup;
+			children = (
+				3680188827D3E59500F9F6F3 /* Welcome */,
+				3680186F27D3E1C900F9F6F3 /* Other */,
+			);
+			path = Scenes;
+			sourceTree = "<group>";
+		};
+		3680186F27D3E1C900F9F6F3 /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				3680187C27D3E53B00F9F6F3 /* OtherSceneViewControllerTests.swift */,
+				3680187D27D3E53B00F9F6F3 /* OtherSceneInteractorTests.swift */,
+				3680187E27D3E53B00F9F6F3 /* OtherSceneViewModelTests.swift */,
+				3680187F27D3E53B00F9F6F3 /* OtherSceneRouterTests.swift */,
+				3680188027D3E53B00F9F6F3 /* OtherScenePresenterTests.swift */,
+				3680188127D3E53B00F9F6F3 /* OtherSceneConfiguratorTests.swift */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		3680188827D3E59500F9F6F3 /* Welcome */ = {
+			isa = PBXGroup;
+			children = (
+				3680188927D3E5A600F9F6F3 /* WelcomeSceneViewControllerTests.swift */,
+				3680188A27D3E5A600F9F6F3 /* WelcomeSceneInteractorTests.swift */,
+				3680188B27D3E5A600F9F6F3 /* WelcomeSceneViewModelTests.swift */,
+				3680188C27D3E5A600F9F6F3 /* WelcomeSceneRouterTests.swift */,
+				3680188D27D3E5A600F9F6F3 /* WelcomeScenePresenterTests.swift */,
+				3680188E27D3E5A600F9F6F3 /* WelcomeSceneConfiguratorTests.swift */,
+			);
+			path = Welcome;
+			sourceTree = "<group>";
+		};
 		36E4C0CC27C98271002641FA = {
 			isa = PBXGroup;
 			children = (
 				36E4C0D727C98271002641FA /* CleanSwiftWithSwiftUI */,
+				3680186627D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests */,
 				36E4C0D627C98271002641FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -75,6 +186,7 @@
 			isa = PBXGroup;
 			children = (
 				36E4C0D527C98271002641FA /* CleanSwiftWithSwiftUI.app */,
+				3680186527D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -96,6 +208,7 @@
 		36E4C0EE27C9831C002641FA /* Scenes */ = {
 			isa = PBXGroup;
 			children = (
+				3680182227D3DFB800F9F6F3 /* Other */,
 				36E4C0EF27C98322002641FA /* Welcome */,
 				36E4C10227C9884C002641FA /* Details */,
 			);
@@ -157,6 +270,24 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
+		3680186427D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3680186B27D3E1B300F9F6F3 /* Build configuration list for PBXNativeTarget "CleanSwiftWithSwiftUnitTests" */;
+			buildPhases = (
+				3680186127D3E1B300F9F6F3 /* Sources */,
+				3680186227D3E1B300F9F6F3 /* Frameworks */,
+				3680186327D3E1B300F9F6F3 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				3680186A27D3E1B300F9F6F3 /* PBXTargetDependency */,
+			);
+			name = CleanSwiftWithSwiftUnitTests;
+			productName = CleanSwiftWithSwiftUnitTests;
+			productReference = 3680186527D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
 		36E4C0D427C98271002641FA /* CleanSwiftWithSwiftUI */ = {
 			isa = PBXNativeTarget;
 			buildConfigurationList = 36E4C0E927C98272002641FA /* Build configuration list for PBXNativeTarget "CleanSwiftWithSwiftUI" */;
@@ -184,6 +315,10 @@
 				LastSwiftUpdateCheck = 1310;
 				LastUpgradeCheck = 1310;
 				TargetAttributes = {
+					3680186427D3E1B300F9F6F3 = {
+						CreatedOnToolsVersion = 13.1;
+						TestTargetID = 36E4C0D427C98271002641FA;
+					};
 					36E4C0D427C98271002641FA = {
 						CreatedOnToolsVersion = 13.1;
 					};
@@ -203,11 +338,19 @@
 			projectRoot = "";
 			targets = (
 				36E4C0D427C98271002641FA /* CleanSwiftWithSwiftUI */,
+				3680186427D3E1B300F9F6F3 /* CleanSwiftWithSwiftUnitTests */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
+		3680186327D3E1B300F9F6F3 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36E4C0D327C98271002641FA /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
@@ -220,13 +363,35 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
+		3680186127D3E1B300F9F6F3 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3680188F27D3E5A600F9F6F3 /* WelcomeSceneViewControllerTests.swift in Sources */,
+				3680188627D3E53B00F9F6F3 /* OtherScenePresenterTests.swift in Sources */,
+				3680188327D3E53B00F9F6F3 /* OtherSceneInteractorTests.swift in Sources */,
+				3680188427D3E53B00F9F6F3 /* OtherSceneViewModelTests.swift in Sources */,
+				3680189327D3E5A600F9F6F3 /* WelcomeScenePresenterTests.swift in Sources */,
+				3680189027D3E5A600F9F6F3 /* WelcomeSceneInteractorTests.swift in Sources */,
+				3680189427D3E5A600F9F6F3 /* WelcomeSceneConfiguratorTests.swift in Sources */,
+				3680188527D3E53B00F9F6F3 /* OtherSceneRouterTests.swift in Sources */,
+				3680189227D3E5A600F9F6F3 /* WelcomeSceneRouterTests.swift in Sources */,
+				3680189127D3E5A600F9F6F3 /* WelcomeSceneViewModelTests.swift in Sources */,
+				3680188727D3E53B00F9F6F3 /* OtherSceneConfiguratorTests.swift in Sources */,
+				3680188227D3E53B00F9F6F3 /* OtherSceneViewControllerTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
 		36E4C0D127C98271002641FA /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				3680184127D3E06D00F9F6F3 /* OtherScenePresenter.swift in Sources */,
 				36E4C10F27C9884C002641FA /* DetailsSceneViewController.swift in Sources */,
 				36E4C0FB27C98331002641FA /* WelcomeSceneConfigurator.swift in Sources */,
 				36E4C0F627C98331002641FA /* WelcomeScenePresenter.swift in Sources */,
+				3680184627D3E06D00F9F6F3 /* OtherSceneConfigurator.swift in Sources */,
+				3680184327D3E06D00F9F6F3 /* OtherSceneViewController.swift in Sources */,
 				36E4C10D27C9884C002641FA /* DetailsScenePresenter.swift in Sources */,
 				36E4C11127C9884C002641FA /* DetailsSceneInteractor.swift in Sources */,
 				36E4C10C27C9884C002641FA /* DetailsSceneViewModel.swift in Sources */,
@@ -238,6 +403,9 @@
 				36E4C0F827C98331002641FA /* WelcomeSceneViewController.swift in Sources */,
 				36E4C0FD27C984B7002641FA /* WelcomeSceneViewModel.swift in Sources */,
 				36E4C10027C98622002641FA /* ScenesFactory.swift in Sources */,
+				3680184427D3E06D00F9F6F3 /* OtherSceneInteractor.swift in Sources */,
+				3680184227D3E06D00F9F6F3 /* OtherSceneRouter.swift in Sources */,
+				3680184527D3E06D00F9F6F3 /* OtherSceneView.swift in Sources */,
 				36E4C0FA27C98331002641FA /* WelcomeSceneView.swift in Sources */,
 				36E4C0F727C98331002641FA /* WelcomeSceneRouter.swift in Sources */,
 				36E4C10B27C9884C002641FA /* DetailsSceneView.swift in Sources */,
@@ -245,6 +413,14 @@
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		3680186A27D3E1B300F9F6F3 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 36E4C0D427C98271002641FA /* CleanSwiftWithSwiftUI */;
+			targetProxy = 3680186927D3E1B300F9F6F3 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
 		36E4C0E327C98272002641FA /* LaunchScreen.storyboard */ = {
@@ -258,6 +434,50 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
+		3680186C27D3E1B300F9F6F3 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CleanSwiftWithSwiftUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftWithSwiftUI.app/CleanSwiftWithSwiftUI";
+			};
+			name = Debug;
+		};
+		3680186D27D3E1B300F9F6F3 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				GENERATE_INFOPLIST_FILE = YES;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.CleanSwiftWithSwiftUnitTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_EMIT_LOC_STRINGS = NO;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/CleanSwiftWithSwiftUI.app/CleanSwiftWithSwiftUI";
+			};
+			name = Release;
+		};
 		36E4C0E727C98272002641FA /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
@@ -431,6 +651,15 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
+		3680186B27D3E1B300F9F6F3 /* Build configuration list for PBXNativeTarget "CleanSwiftWithSwiftUnitTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				3680186C27D3E1B300F9F6F3 /* Debug */,
+				3680186D27D3E1B300F9F6F3 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
 		36E4C0D027C98271002641FA /* Build configuration list for PBXProject "CleanSwiftWithSwiftUI" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (

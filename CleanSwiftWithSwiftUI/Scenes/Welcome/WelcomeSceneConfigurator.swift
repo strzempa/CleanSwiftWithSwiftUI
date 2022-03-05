@@ -7,14 +7,15 @@ import Foundation
 
 protocol WelcomeSceneConfigurator {
     func configured(
-        with viewModel: DefaultWelcomeSceneViewModel
+        with viewModel: WelcomeSceneViewModel
     ) -> WelcomeSceneViewController
 }
 
 final class DefaultWelcomeSceneConfigurator: WelcomeSceneConfigurator {
     func configured(
-        with viewModel: DefaultWelcomeSceneViewModel
+        with viewModel: WelcomeSceneViewModel
     ) -> WelcomeSceneViewController {
+        var viewModel = viewModel
         let viewController = WelcomeSceneViewController(
             rootView: WelcomeSceneView(viewModel: viewModel)
         )

@@ -22,7 +22,9 @@ final class WelcomeSceneRouter: NSObject {
 extension WelcomeSceneRouter: WelcomeSceneRoutingLogic {
     func showDetails(viewModel: DetailsSceneViewModel) {
         source?.navigationController?.pushViewController(
-            scenesFactory.makeDetailsScene(viewModel: viewModel),
+            Bool.random()
+            ? scenesFactory.makeDetailsScene(viewModel: viewModel)
+            : scenesFactory.makeOtherScene(),
             animated: true
         )
     }
